@@ -1,6 +1,6 @@
-import image1 from "../../assets/image/step-1.png"
-import image2 from "../../assets/image/step-2.png"
-import image3 from "../../assets/image/step-3.png"
+import image1 from "../assets/image/step-1.png"
+import image2 from "../assets/image/step-2.png"
+import image3 from "../assets/image/step-3.png"
 
 export default function Step() {
   return (

@@ -1,11 +1,11 @@
-import image1 from "../../assets/image/1.png"
-import image2 from "../../assets/image/2.png"
-import image3 from "../../assets/image/3.png"
-import image4 from "../../assets/image/nenek.png"
-import image5 from "../../assets/image/4.png"
-import image6 from "../../assets/image/5.png"
-import image7 from "../../assets/image/6.png"
-import image8 from "../../assets/image/7.png"
+import image1 from "../assets/image/1.png"
+import image2 from "../assets/image/2.png"
+import image3 from "../assets/image/3.png"
+import image4 from "../assets/image/nenek.png"
+import image5 from "../assets/image/4.png"
+import image6 from "../assets/image/5.png"
+import image7 from "../assets/image/6.png"
+import image8 from "../assets/image/7.png"
 
 export default function Content() {
   return (

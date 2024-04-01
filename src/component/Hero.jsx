@@ -1,5 +1,5 @@
-import SearchIcon from "../../assets/image/search.png"
-import HomeImg from "../../assets/image/casual.png"
+import SearchIcon from "../assets/image/search.png"
+import HomeImg from "../assets/image/casual.png"
 
 export default function Hero() {
   return (

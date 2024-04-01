@@ -1,7 +1,9 @@
 
+import { useNavigate } from 'react-router-dom'
 import Logo from '../assets/image/Critizn.png'
 
 export default function Navbar() {
+  const navigate = useNavigate()
   return (
     <nav className="bg-primary pl-[97px] pr-[89px] pt-[34px] pb-[41px] flex justify-between items-center">
       <div>
@@ -13,7 +15,7 @@ export default function Navbar() {
           <li><a href="/information">Information</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul>
-      <button className='bg-secondary px-[35px] rounded-[9px] w-[161px] h-[55px] font-bold border border-black'>
+      <button onClick={() => navigate('/about')} className='bg-secondary px-[35px] rounded-[9px] w-[161px] h-[55px] font-bold border border-black'>
         Aduan
       </button>
     </nav>

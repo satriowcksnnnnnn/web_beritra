@@ -7,15 +7,17 @@ export default function Navbar() {
   return (
     <nav className="bg-primary pl-[97px] pr-[89px] pt-[34px] pb-[41px] flex justify-between items-center">
       <div>
-        <img src={Logo} alt="logo" width={118} height={68}/>
+        <button onClick={() => navigate('/')}>
+          <img src={Logo} alt="logo" width={118} height={68}/>
+        </button>
       </div> 
         <ul className='flex gap-14 items-center font-bold text-black text-2xl'>
-          <li><a href="/about-us">About Us</a></li>
-          <li><a href="/news">News</a></li>
-          <li><a href="/information">Information</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="/about-us">Tentang Kami</a></li>
+          <li><a href="/news">Berita</a></li>
+          <li><a href="/information">Informasi</a></li>
+          <li><a href="/contact">Kontak</a></li>
         </ul>
-      <button onClick={() => navigate('/about')} className='bg-secondary px-[35px] rounded-[9px] w-[161px] h-[55px] font-bold border border-black'>
+      <button onClick={() => navigate('/Aduan')} className='bg-secondary px-[35px] rounded-[9px] w-[161px] h-[55px] font-bold border border-black'>
         Aduan
       </button>
     </nav>

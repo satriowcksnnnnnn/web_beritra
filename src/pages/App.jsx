@@ -1,13 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home/Home"
-import About from "./About/About";
+import Aduan from "./Aduan/Aduan";
 
 export default function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/About" element={<About/>}/>
+        <Route path="/Aduan" element={<Aduan/>}/>
+        {/* <Route path="/Aduan" element={<Aduan/>}/> */}
       </Routes>
     </Router>
   )

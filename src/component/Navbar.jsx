@@ -12,11 +12,11 @@ export default function Navbar() {
         </button>
       </div> 
         <ul className='flex gap-[120px] items-center font-bold text-black text-2xl'>
-          <li><a href="/about-us">Tentang Kami</a></li>
-          <li><a href="/news">Berita</a></li>
-          <li><a href="/contact">Kontak</a></li>
+          <li><a className='hover:underline underline-offset-2' href="/TentangKami">Tentang Kami</a></li>
+          <li><a className='hover:underline underline-offset-2' href="/Berita">Berita</a></li>
+          <li><a className='hover:underline underline-offset-2' href="/Kontak">Kontak</a></li>
         </ul>
-      <button onClick={() => navigate('/Aduan')} className='bg-secondary px-[35px] rounded-[9px] w-[161px] h-[55px] font-bold border border-black'>
+      <button onClick={() => navigate('/Aduan')} className='bg-secondary px-[35px] rounded-[9px] w-[161px] h-[55px] font-bold border border-black hover:bg-secondary/50'>
         Aduan
       </button>
     </nav>

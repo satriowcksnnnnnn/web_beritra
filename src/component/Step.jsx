@@ -11,15 +11,15 @@ export default function Step() {
         </div>
         <div className="grid grid-cols-3 gap-[70px] mt-28">
             <div className="items-center flex flex-col rounded-[29px] bg-fifth px-[30px] pb-14 pt-9">
-                <img alt="" src={image1}/>
+                <img className="size-[180px]"alt="" src={image1}/>
                 <p className="mt-7 font-bold text-[32px]">Tempel halaman url berita Hoax yang anda temukan</p>
             </div>
             <div className="items-center flex flex-col rounded-[29px] bg-fifth px-[30px] pb-14 pt-9">
-                <img alt="" src={image2}/>
+                <img className="size-[180px]" alt="" src={image2}/>
                 <p className="mt-7 font-bold text-[32px]">Buka website Critizen.com lalu klik aduan</p>
             </div>
             <div className="items-center flex flex-col rounded-[29px] bg-fifth px-[30px] pb-14 pt-9">
-                <img alt="" src={image3}/>
+                <img className="size-[180px]" alt="" src={image3}/>
                 <p className="mt-7 font-bold text-[32px]">Menuju halaman Whatsapp ke nomor PPID D.I.Yogyakarta</p>
             </div>
         </div>

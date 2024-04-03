@@ -8,9 +8,10 @@ import image7 from "../assets/image/6.png"
 import image8 from "../assets/image/7.png"
 
 export default function Content() {
+  
   return (
     <div className="ml-[91px] mt-[115px]">
-      <h1 className="text-[40px] font-bold">Recently Post</h1>
+      <h1 className="text-[40px] font-bold">Postingan Terbaru</h1>
       <div className="grid grid-cols-3 gap-16 mr-[98px]">
         <div className="shadow-md mb-10 w-[374px] h-[274px] rounded-md mt-[34px]">
             <img className="rounded-t-lg w-[374px] h-[162px]" src={image1} alt="" />

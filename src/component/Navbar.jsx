@@ -11,7 +11,7 @@ export default function Navbar() {
           <img src={Logo} alt="logo" width={118} height={68}/>
         </button>
       </div> 
-        <ul className='flex gap-14 items-center font-bold text-black text-2xl'>
+        <ul className='flex gap-[120px] items-center font-bold text-black text-2xl'>
           <li><a href="/about-us">Tentang Kami</a></li>
           <li><a href="/news">Berita</a></li>
           <li><a href="/contact">Kontak</a></li>

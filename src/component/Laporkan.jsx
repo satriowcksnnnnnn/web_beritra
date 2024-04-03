@@ -3,7 +3,7 @@ import imgcasual from '../assets/image/casual.png'
 
 export default function Laporkan() {
   return (
-    <div className='flex justify-between gap-[92px] mt-[100px] mx-[100px]'>
+    <div className='flex justify-between mt-[100px] mx-[100px]'>
       <div className="w-[628px]">
             <h1 className="text-[64px] font-bold text-center">Aduan</h1>
             <p className="text-[20px] font-thin mt-6 text-justify">Fitur "Aduan" memberikan pengguna kemampuan untuk memberi 

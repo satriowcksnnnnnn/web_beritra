@@ -14,7 +14,6 @@ export default function Navbar() {
         <ul className='flex gap-14 items-center font-bold text-black text-2xl'>
           <li><a href="/about-us">Tentang Kami</a></li>
           <li><a href="/news">Berita</a></li>
-          <li><a href="/information">Informasi</a></li>
           <li><a href="/contact">Kontak</a></li>
         </ul>
       <button onClick={() => navigate('/Aduan')} className='bg-secondary px-[35px] rounded-[9px] w-[161px] h-[55px] font-bold border border-black'>

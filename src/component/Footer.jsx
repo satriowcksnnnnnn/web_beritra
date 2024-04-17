@@ -3,7 +3,7 @@ import Logo from "../assets/image/Critizn.png"
 export default function Footer() {
   return (
     <footer className="bg-primary mt-[164px] px-[100px] ">
-        <div className="pt-[49px] flex justify-between">
+        <div className="pt-[49px] flex justify-between font-inknut">
             <div className="mt-[30px]">
                 <img alt="Logo" src={Logo}/>
             </div>
@@ -42,7 +42,7 @@ export default function Footer() {
             <svg width="1274" height="3" viewBox="0 0 1274 3" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <line y1="1.47852" x2="1274.01" y2="1.47852" stroke="black" stroke-width="2"/>
             </svg>
-            <p className="justify-center flex mt-[20px] pb-[67px]">Hak cipta &copy; 2024. Hak cipta dilindungi undang undang</p>
+            <p className="justify-center flex mt-[20px] pb-[67px] font-inknut">Hak cipta &copy; 2024. Hak cipta dilindungi undang undang</p>
         </div>
         
     </footer>

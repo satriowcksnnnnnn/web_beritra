@@ -5,6 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      inknut: ["Inknut Antiqua"],
+      montserrat: ["Montserrat"],
+    },
     extend: {
       colors: {
         primary: "#D9ECF2",

@@ -15,35 +15,35 @@ export default function Content() {
       <div className="grid grid-cols-3 gap-16 mr-[98px]">
         <div className="shadow-md mb-10 w-[374px] h-[274px] rounded-md mt-[34px]">
             <img className="rounded-t-lg w-[374px] h-[162px]" src={image1} alt="" />
-            <h1 className="ml-8 mt-[14px] mx-5 font-bold">Edukasi Anak-anak tentang Pentingnya Memeriksa Informasi</h1>
+            <h1 className="ml-8 mt-[14px] mx-5 font-bold font-montserrat">Edukasi Anak-anak tentang Pentingnya Memeriksa Informasi</h1>
         </div>
         <div className="shadow-md mb-10 w-[374px] h-[274px] rounded-md mt-[34px]">
             <img className="rounded-t-lg  w-[374px] h-[162px]" src={image2} alt="" />
-            <h1 className="ml-8 mt-[14px] mx-5 font-bold">Diskusi Publik: Mitigasi Dampak Psikologis Akibat Penyebaran Hoaks</h1>
+            <h1 className="ml-8 mt-[14px] mx-5 font-bold font-montserrat">Diskusi Publik: Mitigasi Dampak Psikologis Akibat Penyebaran Hoaks</h1>
         </div>
         <div className="shadow-md mb-10 w-[374px] h-[274px] rounded-md mt-[34px]">
             <img className="rounded-t-lg w-[374px] h-[162px]" src={image3} alt="" />
-            <h1 className="ml-8 mt-[14px] mx-5 font-bold">Startup Lokal DIY Berhasil Mengembangkan Algoritma Anti-Hoaks</h1>
+            <h1 className="ml-8 mt-[14px] mx-5 font-bold font-montserrat">Startup Lokal DIY Berhasil Mengembangkan Algoritma Anti-Hoaks</h1>
         </div>
       </div>
         <div className="flex gap-9">
             <img className="rounded-md"src={image4}/>
             <div className="grid grid-cols-2 gap-16 mr-[98px]">
-              <div className="shadow-md w-full h-[215px] rounded-md ">
+              <div className="shadow-md w-[256px] min-h-[215px] rounded-md ">
                 <img className="rounded-t-lg w-[258px] h-[128px]" src={image5} alt="" />
-                <h1 className="ml-8 mt-[14px] font-bold text-[14px]">Peluncuran Program Pelatihan Literasi Digital bagi Orang Tua di DIY</h1>
+                <h1 className="ml-8 mt-[14px] font-bold text-[14px] font-montserrat">Peluncuran Program Pelatihan Literasi Digital bagi Orang Tua di DIY</h1>
               </div>  
-              <div className="shadow-md w-full h-[215px] rounded-md ">
+              <div className="shadow-md w-[256px] min-h-[215px] rounded-md ">
                 <img className="rounded-t-lg w-[258px] h-[128px]" src={image6} alt="" />
-                <h1 className="ml-8 mt-[14px] mx-5 font-bold text-[14px]">Peluncuran Aplikasi Pendeteksi Hoaks Berbasis Blockchain oleh Startup Lokal DIY</h1>
+                <h1 className="ml-8 mt-[14px] mx-5 font-bold text-[14px] font-montserrat">Peluncuran Aplikasi Pendeteksi Hoaks Berbasis Blockchain oleh Startup Lokal DIY</h1>
               </div>
               <div className="shadow-md w-[256px] h-[215px] rounded-md ">
                 <img className="rounded-t-lg w-[258px] h-[128px]" src={image7} alt="" />
-                <h1 className="ml-8 mt-[14px] mx-5 font-bold text-[14px]">Edukasi Anak-Anak Tentang Pentingnya Memeriksa Informasi</h1>
+                <h1 className="ml-8 mt-[14px] mx-5 font-bold text-[14px] font-montserrat">Edukasi Anak-Anak Tentang Pentingnya Memeriksa Informasi</h1>
               </div>
               <div className="shadow-md w-[258px] h-[215px] rounded-md ">
                 <img className="rounded-t-lg w-[258px] h-[128px]" src={image8} alt="" />
-                <h1 className="ml-8 mt-[14px] mx-5 font-bold text-[14px]">Penyuluhan Literasi Digital di Komunitas Adat DIY</h1>
+                <h1 className="ml-8 mt-[14px] mx-5 font-bold text-[14px] font-montserrat">Penyuluhan Literasi Digital di Komunitas Adat DIY</h1>
               </div>
             </div>
                

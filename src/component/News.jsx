@@ -7,7 +7,7 @@ import Berita5 from "../assets/image/berita5.png"
 
 export default function News() {
   return (
-    <div className='flex justify-between mx-[90px] my-[114px]'>
+    <div className='flex justify-between mx-[90px] my-[114px] font-montserrat'>
         <div className='w-[872px]'>
             <img alt='Berita' src={Berita1}/>
             <h1 className='text-4xl font-semibold mt-6'>

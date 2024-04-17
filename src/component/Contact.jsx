@@ -16,13 +16,13 @@ export default function Contact() {
   return (
     <div>
         <div style={containerStyle}>
-            <div className='text-center'>
+            <div className='text-center font-montserrat'>
                 <h3 className='text-[55px] font-bold text-white'>Informasi Kontak</h3>
                 <h5 className='text-xl font-semibold text-white mt-[7px]'>Hubungi kami untuk menyelesaikan <br/>kendala yang anda alami.</h5>
                 <button className='rounded-xl px-9 py-6 bg-secondary hover:bg-secondary/70 text-white text-xl mt-[76px]'>Hubungi Kami</button>
             </div>
         </div>
-        <div className='flex justify-between ml-[242px] mr-[105px]'>      
+        <div className='flex justify-between ml-[242px] mr-[105px] font-montserrat'>      
             <div>
                 <div className='flex gap-7 px-8 py-5 rounded-lg shadow-lg mt-[211px]'>
                     <div className='bg-third p-6 items-center flex rounded-full'>   

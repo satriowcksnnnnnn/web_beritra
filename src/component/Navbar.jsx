@@ -5,7 +5,7 @@ import Logo from '../assets/image/Critizn.png'
 export default function Navbar() {
   const navigate = useNavigate()
   return (
-    <nav className="bg-primary pl-[97px] pr-[89px] pt-[34px] pb-[41px] flex justify-between items-center">
+    <nav className="bg-primary pl-[97px] pr-[89px] pt-[34px] pb-[41px] flex justify-between items-center font-inknut">
       <div>
         <button onClick={() => navigate('/')}>
           <img src={Logo} alt="logo" width={118} height={68}/>

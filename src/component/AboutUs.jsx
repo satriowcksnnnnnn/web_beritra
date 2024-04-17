@@ -27,7 +27,7 @@ export default function AboutUs() {
       <div className='flex gap-[167px] justify-between mt-[128px] ml-[90px] mr-[100px]'>
         <div>
         <h1 className="text-[64px] font-bold text-center">Misi Kami</h1>
-          <p className="text-[26px] font-normal mt-14 text-justify">Memerangi penyebaran informasi palsu dan memberikan wawasan yang jelas tentang isu-isu terkini di Yogyakarta.</p>
+          <p className="text-[26px] font-normal mt-14 text-justify font-montserrat">Memerangi penyebaran informasi palsu dan memberikan wawasan yang jelas tentang isu-isu terkini di Yogyakarta.</p>
           <p className="text-[26px] font-normal mt-6 text-justify">Kami memahami betapa pentingnya kebenaran dalam era digital ini, di mana hoaks dapat dengan cepat menyebar dan memengaruhi pandangan publik. 
           </p>
         </div>

@@ -15,7 +15,7 @@ export default function AboutUs() {
         justifyContent: 'center',
      };
   return (
-    <div>
+    <div className='font-montserrat'>
       <div style={containerStyle}>
         <div className='text-center'>
             <h3 className='text-[55px] font-bold text-white'>Tentang Kami</h3>

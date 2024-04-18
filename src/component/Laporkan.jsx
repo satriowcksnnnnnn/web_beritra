@@ -16,7 +16,7 @@ export default function Laporkan() {
     <div className='flex justify-between gap-[92px] mt-[100px] mx-[100px]'>
       <div className="w-[628px]">
         <h1 className="text-[64px] font-bold text-center">Aduan</h1>
-          <p className="text-[20px] font-normal mt-6 text-justify">Fitur "Aduan" memberikan pengguna kemampuan untuk memberi 
+          <p className="text-[20px] font-normal mt-6 text-justify font-montserrat">Fitur "Aduan" memberikan pengguna kemampuan untuk memberi 
             tahu administrator atau pemilik platform tentang konten yang dianggap tidak pantas, 
             melanggar pedoman komunitas, atau mungkin menyebarkan informasi palsu atau merugikan. 
             Dengan fitur ini, pengguna dapat melaporkan berita atau konten yang mereka yakini perlu 
@@ -25,7 +25,7 @@ export default function Laporkan() {
             kemudian dapat ditinjau oleh tim moderator atau administrator untuk mengambil tindakan yang sesuai sesuai dengan kebijakan platform tersebut.
           </p>
       <div className="relative w-full mt-[60px]">
-        <div className="items-center text-center">
+        <div className="items-center text-center font-montserrat">
                     <button onClick={handleLaporkanBerita} className='bg-secondary px-8 py-5 rounded-[9px] font-semibold text-white justify-center whitespace-nowrap hover:bg-secondary/50'>
                       Laporkan Berita
                     </button>
